@@ -20,7 +20,7 @@ const Category = () => {
             <button className="btn btn-success w-100 mb-4" onClick={()=> filterResult('Childern')}>Childern</button> 
             <button className="btn btn-warning w-100 mb-4" onClick={()=> filterResult('Black')}>Black</button>
             <button className="btn btn-success w-100 mb-4" onClick={()=> filterResult('White')}>White</button> 
-            <button className="btn btn-warning w-100 mb-4">All</button>
+            <button className="btn btn-warning w-100 mb-4" onClick={()=> setData(Categories)}>All</button>
             </div>
            <div className="col-md-9">
             <div className="row">
